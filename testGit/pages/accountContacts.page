@@ -1,0 +1,13 @@
+<apex:page standardController="Account" extensions="accountContactsController">
+    <apex:pageBlock >
+        <table>
+            <apex:repeat value="{!contacts}" var="con">
+                <tr>
+                    <td>{!con.lastName}</td>
+                    <td>{!con.firstName}</td>
+                    <td>{!con.phone}</td>
+                </tr>
+            </apex:repeat>
+        </table>
+    </apex:pageBlock>
+</apex:page>
