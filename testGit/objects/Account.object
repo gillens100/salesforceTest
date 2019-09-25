@@ -20,6 +20,11 @@
                     <default>false</default>
                     <label>Yes</label>
                 </value>
+                <value>
+                    <fullName>MAybe</fullName>
+                    <default>false</default>
+                    <label>MAybe</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>

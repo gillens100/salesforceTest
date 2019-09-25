@@ -1,5 +1,5 @@
 <apex:page standardController="Account" extensions="accountContactsController">
-    <apex:pageBlock >
+    <apex:pageBlock title="Title" >
         <table>
             <apex:repeat value="{!contacts}" var="con">
                 <tr>
